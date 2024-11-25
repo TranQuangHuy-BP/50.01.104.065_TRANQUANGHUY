@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chi tiết sản phẩm</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #product-detail {
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            background-color: #eeeeee;
+        }
+        #product-detail img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 20px;
+        }
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .product-desc {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #FF5722;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="product-detail">
+        <img src="chuotkhongday.jpg" alt="Chuột máy tính">
+        <div class="product-title">Chuột không dây</div>
+        <div class="product-desc">Chuột không dây này rất phù hợp với nhu cầu của bạn.</div>
+        <div class="product-price">Giá: 200,000 VND</div>
+        <button class="back-button" onclick="window.history.back()">Quay lại</button>
+    </div>
+</body>
+</html>

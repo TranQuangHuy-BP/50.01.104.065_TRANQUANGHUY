@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Website - Các thiết bị máy tính</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container chính */
+        #container {
+            width: 1000px;
+            margin: 0 auto;
+            min-height: 600px;
+            background-color: #f0f8ff;
+            border: 1px solid #ccc;
+        }
+
+        /* Header */
+        header {
+            background-color: #6becb0;
+            height: 150px;
+            position: relative;
+            padding: 20px;
+            text-align: left;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        header img {
+            margin: 5px;
+        }
+
+        /* Menu ngang */
+        nav {
+            height: 50px;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ff9900;
+            border-radius: 5px;
+        }
+        nav img {
+            margin-right: 10px;
+        }
+
+        /* Content chính */
+        #content {
+            background-color: #8a69e7;
+            min-height: 400px;
+            padding: 20px;
+            color: #fff;
+            font-size: 16px;
+            float: left;
+            width: 67%;
+        }
+
+        /* Menu phải */
+        #right {
+            background-color: #e09252;
+            min-height: 400px;
+            padding: 20px;
+            color: #fff;
+            font-size: 16px;
+            float: right;
+            width: 25%;
+        }
+
+        /* Footer */
+        footer {
+            clear: both;
+            background-color: #fff;
+            color: #333;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Thùng chứa -->
+    <div id="container">
+        <!-- Header -->
+        <header>
+            CÁC THIẾT BỊ MÁY TÍNH
+            <div style="position: absolute; top: 10px; right: 10px;">
+                <img src="images/facebook.png" width="32" height="32" alt="Facebook">
+                <img src="images/google_plus.png" width="32" height="32" alt="Google Plus">
+                <img src="images/youtube.png" width="32" height="32" alt="YouTube">
+                <img src="images/yahoo.png" width="32" height="32" alt="Yahoo">
+            </div>
+        </header>
+
+        <!-- Menu ngang -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="MenuProduct.html">Menu Product</a></li>
+            </ul>
+            <img src="images/vi.gif" width="24" height="24" alt="VI">
+        </nav>
+
+        <!-- Nội dung chính -->
+        <div id="content">
+            <h2>Chào mừng bạn đến với website của chúng tôi!</h2>
+            <p>Đây là nơi giới thiệu và cung cấp các thiết bị máy tính hiện đại với giá cả hợp lý. Chúng tôi cam kết mang đến sản phẩm chất lượng và dịch vụ tốt nhất.</p>
+            <p>Hãy duyệt qua <a href="MenuProduct.html" style="color: #ff9900; text-decoration: underline;">danh sách sản phẩm</a> để tìm sản phẩm phù hợp với nhu cầu của bạn.</p>
+        </div>
+
+        <!-- Menu phải -->
+        <div id="right">
+            <h3>Danh mục</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>- Laptop</li>
+                <li>- Máy tính để bàn</li>
+                <li>- Thiết bị ngoại vi</li>
+                <li>- Phần mềm</li>
+                <li>- Phụ kiện</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            && Bản quyền thuộc về Trần Quang Huy &&
+        </footer>
+    </div>
+</body>
+</html>
